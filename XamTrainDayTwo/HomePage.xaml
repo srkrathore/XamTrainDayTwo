@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:y="clr-namespace:XamTrainDayTwo;assembly=XamTrainDayTwo"
+	x:Class="XamTrainDayTwo.HomePage">
+  <MasterDetailPage.Master>
+  	<y:MainMenu x:Name="MenuPage" />
+  </MasterDetailPage.Master>
+	<MasterDetailPage.Detail>
+		<NavigationPage>
+			<x:Arguments>
+				<y:MenuDetail />
+			</x:Arguments>
+		</NavigationPage>
+	</MasterDetailPage.Detail>
+</MasterDetailPage>

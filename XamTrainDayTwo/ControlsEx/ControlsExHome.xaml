@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	xmlns:ctrl="clr-namespace:XamTrainDayTwo;assembly=XamTrainDayTwo"
+	x:Class="XamTrainDayTwo.ControlsExHome">
+	<ContentPage.Content>
+		  <StackLayout BackgroundColor="White" Spacing = "0"  >
+		  <ctrl:AppHeader />
+    <!--spacer-->
+    <BoxView HeightRequest="3"
+				 BackgroundColor="White" >
+    </BoxView>
+    <Frame BackgroundColor="White"
+			   OutlineColor="White"
+			   HasShadow="False"
+			   Padding="10">
+      <Frame BackgroundColor="#F0F0F0"
+				   OutlineColor="Black"
+				   HasShadow="False"
+				   Padding="0,0,5,0">
+        <!-- contents -->
+        <Grid>
+          <Grid.RowDefinitions>
+            <RowDefinition Height="5" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="5" />
+          </Grid.RowDefinitions>
+
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="5" />
+          </Grid.ColumnDefinitions>
+
+          <Label Text="Bindable Picker" Grid.Row="1" Grid.Column="1" />
+          <ctrl:BindablePicker Grid.Row="1" Grid.Column="2"  Title = "System" />
+
+        </Grid>
+        <!-- /contents -->
+      </Frame>
+    </Frame>
+
+  </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="XamTrainDayTwo.SecondPage"
+	Title="Second Page" >
+	<ContentPage.Content>
+		<StackLayout VerticalOptions = "Center">
+			<Label HorizontalTextAlignment = "Center" Text = "Second Page" />
+			<Label x:Name="lblMessage" HorizontalTextAlignment = "Center" Text = "The Page class is  occupies most or all of the screen and contains a single child. A Xamarin.Forms.Page represents a View Controller in iOS or a Page in Windows Phone. On Android each page takes up the screen like an Activity, but Xamarin.Forms Pages are not Activities. These pages are also used as the bases of navigation for application UI." />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

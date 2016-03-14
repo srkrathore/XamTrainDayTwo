@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="XamTrainDayTwo.StylesHome">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="PageButtonStyle" TargetType="Button">
+            	<Setter Property="BorderRadius" Value="20" />
+            	<Setter Property="BorderWidth" Value="5" />
+            	<Setter Property="WidthRequest" Value="150" />
+            	<Setter Property="HeightRequest" Value="150" />
+                <Setter Property="HorizontalOptions"  Value="Center" />
+                <Setter Property="VerticalOptions"    Value="Center" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Red" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+	<ContentPage.Content>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="50" />
+			<RowDefinition Height="70" />
+			<RowDefinition Height="*" />
+			<RowDefinition Height="*" />
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*" />
+			<ColumnDefinition Width="*" />
+		</Grid.ColumnDefinitions>
+		<Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" 
+				Text="Styles Home" Style="{StaticResource TitleStyle}" />
+		<Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" 
+				Text="This page contains link to Pages Implimenting Different styles, This page itself impliment Explicit Styles" 
+				Style="{StaticResource SubTitleStyle}" />
+		<Button Text="Implicit Style" Grid.Row="2" Grid.Column="0" Clicked="OnImplicitClicked" Style="{StaticResource PageButtonStyle}"/>
+		<Button Text="Explicit Style"  Grid.Row="2" Grid.Column="1" Clicked="OnExplicitClicked" Style="{StaticResource PageButtonStyle}"/>
+		<Button Text="Global Style"  Grid.Row="3" Grid.Column="0" Clicked="OnGlobalClicked" Style="{StaticResource PageButtonStyle}"/>
+		<Button Text="Dynamic Style" Grid.Row="3" Grid.Column="1" Clicked="OnDynamicClicked" Style="{StaticResource PageButtonStyle}"/>
+	</Grid>
+	</ContentPage.Content>
+</ContentPage>

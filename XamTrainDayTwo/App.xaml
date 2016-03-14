@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="XamTrainDayTwo.App" >
+	<Application.Resources>
+	<ResourceDictionary>
+	        <Style TargetType="Label">
+                <Setter Property="HorizontalOptions"  Value="Center" />
+                <Setter Property="VerticalOptions"    Value="CenterAndExpand" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Blue" />
+            </Style>
+            <Style TargetType="Button">
+            	<Setter Property="BorderRadius" Value="10" />
+            	<Setter Property="BorderWidth" Value="2" />
+            	<Setter Property="WidthRequest" Value="150" />
+            	<Setter Property="HeightRequest" Value="150" />
+                <Setter Property="HorizontalOptions"  Value="Center" />
+                <Setter Property="VerticalOptions"    Value="Center" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Red" />
+            </Style>
+
+            <Style x:Key="TitleStyle" TargetType="Label">
+                <Setter Property="HorizontalOptions"  Value="Center" />
+                <Setter Property="VerticalOptions"    Value="CenterAndExpand" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="Red" />
+            </Style>
+            <Style x:Key="SubTitleStyle" TargetType="Label">
+                <Setter Property="HorizontalOptions"  Value="Center" />
+                <Setter Property="VerticalOptions"    Value="CenterAndExpand" />
+                <Setter Property="FontSize" Value="Small" />
+                <Setter Property="TextColor" Value="Green" />
+            </Style>
+            <Style x:Key="RegButtonStyle" TargetType="Button">
+            	<Setter Property="BorderRadius" Value="10" />
+            	<Setter Property="BorderWidth" Value="2" />
+            	<Setter Property="WidthRequest" Value="150" />
+            	<Setter Property="HeightRequest" Value="150" />
+                <Setter Property="HorizontalOptions"  Value="Center" />
+                <Setter Property="VerticalOptions"    Value="Center" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Red" />
+            </Style>
+      <Style x:Key="EntryTrigger" TargetType="Entry">
+        <Style.Triggers>
+          <Trigger Property="IsFocused" Value="True" TargetType="Entry">
+            <Setter Property="Scale" Value="1.1" />
+         
+            <Setter Property="TextColor" Value="Green" />
+             <Setter Property="BackgroundColor" Value="Yellow" />
+          </Trigger>
+        </Style.Triggers>
+      </Style>
+	</ResourceDictionary>
+</Application.Resources>
+</Application>

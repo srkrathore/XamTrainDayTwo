@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="XamTrainDayTwo.LayoutsHome">
+	<ContentPage.Content>
+		<StackLayout VerticalOptions = "Center">
+			<Button Text="Stack Complex" Clicked="OnStackComplexClicked" />
+			<Button Text="Stack Simple" Clicked="OnStackSimpleClicked" />
+			<Button Text="Grid Layout" Clicked="OnGridClicked" />
+			<Button Text="Relative Simple" Clicked="OnRelativeSimpClicked" />
+			<Button Text="Relative Complex" Clicked="OnRelativeCompClicked" />
+			<Button Text="Absolute Layout" Clicked="OnAbsCompClicked" />
+			<Button Text="Absolute Simple" Clicked="OnAbsSimpleClicked" />
+		</StackLayout>	
+	</ContentPage.Content>
+</ContentPage>
