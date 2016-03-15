@@ -38,8 +38,6 @@
             <ColumnDefinition Width="5" />
           </Grid.ColumnDefinitions>
 
-          <Label Text="Bindable Picker" Grid.Row="1" Grid.Column="1" />
-          <ctrl:BindablePicker Grid.Row="1" Grid.Column="2"  Title = "System" />
 
         </Grid>
         <!-- /contents -->
