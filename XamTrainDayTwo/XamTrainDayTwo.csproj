@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -84,6 +84,25 @@
     </Compile>
     <Compile Include="Styles\StylesHome.xaml.cs">
       <DependentUpon>StylesHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Triggers\ConverterNActions.cs" />
+    <Compile Include="Triggers\DataTriggerEx.xaml.cs">
+      <DependentUpon>DataTriggerEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Triggers\EnterExitActionEx.xaml.cs">
+      <DependentUpon>EnterExitActionEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Triggers\EventTriggerEx.xaml.cs">
+      <DependentUpon>EventTriggerEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Triggers\MultiTriggerEx.xaml.cs">
+      <DependentUpon>MultiTriggerEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Triggers\PropertyTriggerEx.xaml.cs">
+      <DependentUpon>PropertyTriggerEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Triggers\TriggersHome.xaml.cs">
+      <DependentUpon>TriggersHome.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ViewsHome.xaml.cs">
       <DependentUpon>ViewsHome.xaml</DependentUpon>
@@ -217,12 +236,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pages\" />
-    <Folder Include="Layouts\" />
-    <Folder Include="Views\" />
-    <Folder Include="Styles\" />
-    <Folder Include="Controls\" />
-    <Folder Include="ControlsEx\" />
+    <EmbeddedResource Include="Triggers\DataTriggerEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -237,5 +254,35 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Triggers\PropertyTriggerEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Triggers\EventTriggerEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Triggers\MultiTriggerEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Triggers\EnterExitActionEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Triggers\TriggersHome.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

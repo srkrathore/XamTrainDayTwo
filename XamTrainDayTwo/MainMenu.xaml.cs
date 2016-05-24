@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
+using XamTrainDayTwo.Triggers;
 
 namespace XamTrainDayTwo
 {
@@ -34,7 +35,13 @@ namespace XamTrainDayTwo
 				IconSource = "reminders.png",
 				TargetType = typeof(StylesHome)
 			});
-			vMenuItems.Add (new MenuItem {
+            vMenuItems.Add(new MenuItem
+            {
+                Title = "Triggers",
+                IconSource = "reminders.png",
+                TargetType = typeof(TriggersHome)
+            });
+            vMenuItems.Add (new MenuItem {
 				Title = "Controls Examples",
 				IconSource = "reminders.png",
 				TargetType = typeof(ControlsExHome)
