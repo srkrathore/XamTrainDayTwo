@@ -8,17 +8,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace XamTrainDayTwo {
+namespace XamTrainDayTwo.Views {
     using System;
     using Xamarin.Forms;
     using Xamarin.Forms.Xaml;
     
     
-    public partial class ViewsHome : global::Xamarin.Forms.TabbedPage {
+    public partial class GroupedListEx : global::Xamarin.Forms.ContentPage {
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView lstView;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(ViewsHome));
+            this.LoadFromXaml(typeof(GroupedListEx));
+            lstView = this.FindByName<global::Xamarin.Forms.ListView>("lstView");
         }
     }
 }

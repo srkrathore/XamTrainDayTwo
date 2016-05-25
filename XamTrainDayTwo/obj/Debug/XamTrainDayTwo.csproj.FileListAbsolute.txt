@@ -44,5 +44,10 @@ C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Triggers.Ev
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Triggers.MultiTriggerEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Triggers.EnterExitActionEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Triggers.TriggersHome.xaml.g.cs
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Views.ListsHome.xaml.g.cs
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Views.BasicListEx.xaml.g.cs
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Views.ListContextActionsEx.xaml.g.cs
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Views.GroupedListEx.xaml.g.cs
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Views.SearchBarEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.dll.mdb
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\bin\Debug\XamTrainDayTwo.dll.mdb
