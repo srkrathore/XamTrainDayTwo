@@ -25,6 +25,11 @@ C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\res\drawable\icon.png
 C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\res\drawable-hdpi\icon.png
 C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\res\drawable-xhdpi\icon.png
 C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\res\drawable\waterfront.jpg
+C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\res\drawable\xaml.png
+C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\res\drawable-hdpi\waterfront.jpg
+C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\res\drawable-xhdpi\waterfront.jpg
+C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\res\drawable-xxhdpi\waterfront.jpg
 C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\R.cs.flag
 C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\uploadflags.txt
 C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\XamTrainDayTwo.Droid.dll.mdb

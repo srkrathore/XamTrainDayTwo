@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamTrainDayTwo.Behaviors.BehaviorsEx"
+             xmlns:bhv="clr-namespace:XamTrainDayTwo.Behaviors" >
+  <StackLayout Padding="0,20,0,0">
+    <Label Text="Red when the email isn't valid" FontSize="Small" />
+    <Entry Placeholder="Enter a email value">
+      <Entry.Behaviors>
+        <bhv:EmailVlidator />
+      </Entry.Behaviors>
+    </Entry>
+  </StackLayout>
+</ContentPage>

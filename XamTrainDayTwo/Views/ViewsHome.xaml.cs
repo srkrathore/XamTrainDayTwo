@@ -10,7 +10,7 @@ namespace XamTrainDayTwo
         {
             InitializeComponent();
             Children.Add(new ListsHome { Title = "Lists" });
-            //Children.Add(new SearchBarEx { Title = "Search Bar" });
+            Children.Add(new ImagesHome { Title = "Images" });
         }
 	}
 }

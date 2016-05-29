@@ -30,6 +30,10 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Behaviors\BehaviorsEx.xaml.cs">
+      <DependentUpon>BehaviorsEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Behaviors\EmailVlidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pages\ContentPageEx.xaml.cs">
       <DependentUpon>ContentPageEx.xaml</DependentUpon>
@@ -107,8 +111,18 @@
     <Compile Include="Views\BasicListEx.xaml.cs">
       <DependentUpon>BasicListEx.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\CustomExtension.cs" />
+    <Compile Include="Views\DownloadImagesEx.xaml.cs">
+      <DependentUpon>DownloadImagesEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmbeddedImagesEx.xaml.cs">
+      <DependentUpon>EmbeddedImagesEx.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\GroupedListEx.xaml.cs">
       <DependentUpon>GroupedListEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ImagesHome.xaml.cs">
+      <DependentUpon>ImagesHome.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ListContextActionsEx.xaml.cs">
       <DependentUpon>ListContextActionsEx.xaml</DependentUpon>
@@ -116,8 +130,14 @@
     <Compile Include="Views\ListsHome.xaml.cs">
       <DependentUpon>ListsHome.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\LocalImagesEx.xaml.cs">
+      <DependentUpon>LocalImagesEx.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\SearchBarEx.xaml.cs">
       <DependentUpon>SearchBarEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TableViewExcs.xaml.cs">
+      <DependentUpon>TableViewExcs.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ViewsHome.xaml.cs">
       <DependentUpon>ViewsHome.xaml</DependentUpon>
@@ -326,6 +346,45 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\SearchBarEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Behaviors\BehaviorsEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\TableViewExcs.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\ImagesHome.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\LocalImagesEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\beach.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\EmbeddedImagesEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\DownloadImagesEx.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

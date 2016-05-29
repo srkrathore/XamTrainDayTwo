@@ -35,9 +35,6 @@ C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Layouts.Abs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.App.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Styles.TriggerEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Controls.AppHeader.xaml.g.cs
-C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.dll
-C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.pdb
-C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.csprojResolveAssemblyReference.cache
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Triggers.DataTriggerEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Triggers.PropertyTriggerEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Triggers.EventTriggerEx.xaml.g.cs
@@ -49,5 +46,14 @@ C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Views.Basic
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Views.ListContextActionsEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Views.GroupedListEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Views.SearchBarEx.xaml.g.cs
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Behaviors.BehaviorsEx.xaml.g.cs
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Views.TableViewExcs.xaml.g.cs
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.dll
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.pdb
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.csprojResolveAssemblyReference.cache
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Views.ImagesHome.xaml.g.cs
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Views.LocalImagesEx.xaml.g.cs
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Views.EmbeddedImagesEx.xaml.g.cs
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Views.DownloadImagesEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.dll.mdb
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\bin\Debug\XamTrainDayTwo.dll.mdb
