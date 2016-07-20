@@ -17,8 +17,16 @@ namespace XamTrainDayTwo {
     public partial class ControlsExHome : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::XamTrainDayTwo.BindablePicker ddlExample;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label lblSelectedVal;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(ControlsExHome));
+            ddlExample = this.FindByName<global::XamTrainDayTwo.BindablePicker>("ddlExample");
+            lblSelectedVal = this.FindByName<global::Xamarin.Forms.Label>("lblSelectedVal");
         }
     }
 }

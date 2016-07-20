@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Xamarin.Forms;
 using XamTrainDayTwo.Behaviors;
 using XamTrainDayTwo.Triggers;
-
+using XamTrainDayTwo.Effects;
 namespace XamTrainDayTwo
 {
 	public partial class MainMenu : ContentPage
@@ -47,6 +47,12 @@ namespace XamTrainDayTwo
                 Title = "Behaviors",
                 IconSource = "reminders.png",
                 TargetType = typeof(BehaviorsEx)
+            });
+            vMenuItems.Add(new MenuItem
+            {
+                Title = "Effects",
+                IconSource = "reminders.png",
+                TargetType = typeof(EffectsHome)
             });
             vMenuItems.Add (new MenuItem {
 				Title = "Controls Examples",

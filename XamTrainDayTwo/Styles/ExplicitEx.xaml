@@ -4,7 +4,7 @@
 	x:Class="XamTrainDayTwo.ExplicitEx"
 	Title="Explicit Styles">
 
-     <ContentPage.Resources>
+   <ContentPage.Resources>
         <ResourceDictionary>
     <Style x:Key="PageExplicitStyle" TargetType="Label">
         <Setter Property="HorizontalOptions"  Value="Center" />

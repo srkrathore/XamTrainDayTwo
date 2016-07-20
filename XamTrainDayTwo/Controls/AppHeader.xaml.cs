@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace XamTrainDayTwo
 {
-	public partial class AppHeader : ContentView
+    public partial class AppHeader : ContentView
 	{
 		public AppHeader ()
 		{

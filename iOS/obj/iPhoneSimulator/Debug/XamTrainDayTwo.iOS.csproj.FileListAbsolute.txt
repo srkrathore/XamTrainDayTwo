@@ -27,10 +27,10 @@ C:\GithubCode\XamTrainDayTwo\iOS\obj\iPhoneSimulator\Debug\optimized\Icon-Small-
 C:\GithubCode\XamTrainDayTwo\iOS\obj\iPhoneSimulator\Debug\optimized\Icon-Small.png
 C:\GithubCode\XamTrainDayTwo\iOS\obj\iPhoneSimulator\Debug\optimized\Icon-Small@2x.png
 C:\GithubCode\XamTrainDayTwo\iOS\obj\iPhoneSimulator\Debug\optimized\Icon-Small@3x.png
+C:\GithubCode\XamTrainDayTwo\iOS\obj\iPhoneSimulator\Debug\optimized\xaml.png
 C:\GithubCode\XamTrainDayTwo\iOS\obj\iPhoneSimulator\Debug\optimized\
 C:\GithubCode\XamTrainDayTwo\iOS\obj\iPhoneSimulator\Debug\XamTrainDayTwo.iOS.csprojResolveAssemblyReference.cache
 C:\GithubCode\XamTrainDayTwo\iOS\obj\iPhoneSimulator\Debug\XamTrainDayTwoiOS.exe
 C:\GithubCode\XamTrainDayTwo\iOS\obj\iPhoneSimulator\Debug\XamTrainDayTwoiOS.pdb
-C:\GithubCode\XamTrainDayTwo\iOS\obj\iPhoneSimulator\Debug\optimized\xaml.png
 C:\GithubCode\XamTrainDayTwo\iOS\obj\iPhoneSimulator\Debug\XamTrainDayTwoiOS.exe.mdb
 C:\GithubCode\XamTrainDayTwo\iOS\bin\iPhoneSimulator\Debug\XamTrainDayTwoiOS.exe.mdb

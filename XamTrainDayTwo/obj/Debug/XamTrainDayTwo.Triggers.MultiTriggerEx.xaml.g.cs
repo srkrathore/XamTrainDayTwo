@@ -14,7 +14,7 @@ namespace XamTrainDayTwo.Triggers {
     using Xamarin.Forms.Xaml;
     
     
-    public partial class MultiTriggerEx : global::Xamarin.Forms.ContentPage {
+    public partial class MultiTriggerEx : global::Xamarin.Forms.TabbedPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry email;

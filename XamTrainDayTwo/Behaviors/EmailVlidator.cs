@@ -19,9 +19,9 @@ namespace XamTrainDayTwo.Behaviors
         {
             if (!args.NewTextValue.Contains("@"))
             {
-                ((Entry)sender).Text = "";
+                ((Entry)sender).TextColor = Color.Red;
             }
-            //else ((Entry)sender).TextColor = Color.Default;
+            else ((Entry)sender).TextColor = Color.Default;
         }
 
     }

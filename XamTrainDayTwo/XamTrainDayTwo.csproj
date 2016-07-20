@@ -34,6 +34,19 @@
       <DependentUpon>BehaviorsEx.xaml</DependentUpon>
     </Compile>
     <Compile Include="Behaviors\EmailVlidator.cs" />
+    <Compile Include="Controls\BindablePicker.cs" />
+    <Compile Include="Effects\BgColoEffectEx.xaml.cs">
+      <DependentUpon>BgColoEffectEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Effects\EffectsHome.cs" />
+    <Compile Include="Effects\FocusEffect.cs" />
+    <Compile Include="Effects\FocusEx.xaml.cs">
+      <DependentUpon>FocusEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Effects\ShadowEffect.cs" />
+    <Compile Include="Effects\ShadowEffectEx.xaml.cs">
+      <DependentUpon>ShadowEffectEx.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pages\ContentPageEx.xaml.cs">
       <DependentUpon>ContentPageEx.xaml</DependentUpon>
@@ -385,6 +398,25 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\DownloadImagesEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Effects\ShadowEffectEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effects\BgColoEffectEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Effects\FocusEx.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

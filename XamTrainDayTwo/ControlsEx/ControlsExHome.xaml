@@ -6,7 +6,12 @@
 	<ContentPage.Content>
 		  <StackLayout BackgroundColor="White" Spacing = "0"  >
 		  <ctrl:AppHeader />
-    <!--spacer-->
+      <ctrl:BindablePicker x:Name="ddlExample" SelectedIndexChanged="OnSelectedIndexChanged" Title = "Dropdown Example" />
+
+        <Label Text="Selected Value" Grid.Row="2" Grid.Column="1" />
+        <Label x:Name="lblSelectedVal" Text="" Grid.Row="2" Grid.Column="2" />
+
+        <!--spacer-->
     <BoxView HeightRequest="3"
 				 BackgroundColor="White" >
     </BoxView>

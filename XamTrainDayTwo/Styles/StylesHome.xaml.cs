@@ -13,9 +13,8 @@ namespace XamTrainDayTwo
 		}
 
 		public void OnImplicitClicked (object sender, EventArgs args){
-
+         
 			Navigation.PushAsync(new ImplicitEx());
-
 		}
 
 		public void OnExplicitClicked (object sender, EventArgs args){
