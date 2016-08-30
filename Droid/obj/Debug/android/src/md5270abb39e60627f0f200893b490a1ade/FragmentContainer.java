@@ -16,6 +16,7 @@ public class FragmentContainer
 			"n_onDestroyView:()V:GetOnDestroyViewHandler\n" +
 			"n_onHiddenChanged:(Z)V:GetOnHiddenChanged_ZHandler\n" +
 			"n_onPause:()V:GetOnPauseHandler\n" +
+			"n_onResume:()V:GetOnResumeHandler\n" +
 			"";
 		mono.android.Runtime.register ("Xamarin.Forms.Platform.Android.AppCompat.FragmentContainer, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null", FragmentContainer.class, __md_methods);
 	}
@@ -75,6 +76,14 @@ public class FragmentContainer
 	}
 
 	private native void n_onPause ();
+
+
+	public void onResume ()
+	{
+		n_onResume ();
+	}
+
+	private native void n_onResume ();
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
