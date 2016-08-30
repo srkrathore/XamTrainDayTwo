@@ -5,12 +5,11 @@
 	<ContentPage.Content>
   <AbsoluteLayout BackgroundColor="#FF8080">
     <BoxView Color="#8080FF"
-             AbsoluteLayout.LayoutBounds="0.33, 0, 0.25, 0.25"
-             AbsoluteLayout.LayoutFlags="All" />
-
-    <BoxView Color="#8080FF"
+             AbsoluteLayout.LayoutBounds="20, 15, 25,75"
+             AbsoluteLayout.LayoutFlags="None" />
+    <!--<BoxView Color="#8080FF"
              AbsoluteLayout.LayoutBounds="1, 0, 0.25, 0.25"
-             AbsoluteLayout.LayoutFlags="All" />
+             AbsoluteLayout.LayoutFlags="HeightProportional,WidthProportional" />
 
     <BoxView Color="#8080FF"
              AbsoluteLayout.LayoutBounds="0, 0.33, 0.25, 0.25"
@@ -34,8 +33,8 @@
 
     <BoxView Color="#8080FF"
              AbsoluteLayout.LayoutBounds="0.67, 1, 0.25, 0.25"
-             AbsoluteLayout.LayoutFlags="All" />
-
+             AbsoluteLayout.LayoutFlags="All" />-->
+    
   </AbsoluteLayout>
 	</ContentPage.Content>
 </ContentPage>

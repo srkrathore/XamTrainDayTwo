@@ -10,20 +10,24 @@
     <BoxView Color="Red"
              RelativeLayout.XConstraint=
                  "{ConstraintExpression Type=Constant, 
-                                        Constant=0}"
+                                        Constant=25}"
              RelativeLayout.YConstraint=
                  "{ConstraintExpression Type=Constant, 
                                         Constant=0}" />
     <!-- Upper right -->    
-    <BoxView Color="Green"
+    <BoxView Color="Green" WidthRequest="10"
              RelativeLayout.XConstraint=
                  "{ConstraintExpression Type=RelativeToParent, 
                                         Property=Width,
                                         Factor=1,
-                                        Constant=-40}"
+                                        Constant=-110}"
              RelativeLayout.YConstraint=
                  "{ConstraintExpression Type=Constant, 
-                                        Constant=0}" />
+                                        Constant=0}"
+             RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, 
+                                        Property=Height,
+                                        Factor=1,
+                                        Constant=-110}"/>
     <!-- Lower left -->
     <BoxView Color="Blue"
              RelativeLayout.XConstraint=
@@ -60,7 +64,7 @@
                                         Factor=0.33}" 
              RelativeLayout.WidthConstraint=
                  "{ConstraintExpression Type=RelativeToParent,
-                                        Property=Width,
+                                        Property=Height,
                                         Factor=0.33}"
              RelativeLayout.HeightConstraint=
                  "{ConstraintExpression Type=RelativeToParent,

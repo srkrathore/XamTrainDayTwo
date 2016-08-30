@@ -33,7 +33,6 @@
 		                                       Path=Text.Length}"
                                          Value="0" />
             </MultiTrigger.Conditions>
-
             <Setter Property="IsEnabled" Value="False" />
           </MultiTrigger>
         </Button.Triggers>

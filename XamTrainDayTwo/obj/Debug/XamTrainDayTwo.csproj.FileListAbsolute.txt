@@ -58,5 +58,6 @@ C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.csprojResol
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Effects.ShadowEffectEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Effects.BgColoEffectEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Effects.FocusEx.xaml.g.cs
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Layouts.FramesEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.dll.mdb
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\bin\Debug\XamTrainDayTwo.dll.mdb

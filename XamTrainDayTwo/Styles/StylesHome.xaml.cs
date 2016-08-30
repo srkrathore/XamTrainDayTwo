@@ -31,9 +31,10 @@ namespace XamTrainDayTwo
 
 		public void OnDynamicClicked (object sender, EventArgs args){
 
-			Navigation.PushAsync(new TriggerEx());
+            //Navigation.PushAsync(new TriggerEx());
+            Navigation.PushAsync(new DynamicEx());
 
-		}
+        }
 	}
 }
 
