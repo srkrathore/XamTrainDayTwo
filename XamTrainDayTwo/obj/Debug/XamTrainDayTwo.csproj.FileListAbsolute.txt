@@ -70,3 +70,5 @@ C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.dll
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.pdb
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.dll.mdb
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\bin\Debug\XamTrainDayTwo.dll.mdb
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.dll.mdb
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\bin\Debug\XamTrainDayTwo.dll.mdb
