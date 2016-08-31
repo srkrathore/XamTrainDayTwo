@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<d:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="clr-namespace:XamTrainDayTwo.Misc;assembly=XamTrainDayTwo"
+             x:Class="XamTrainDayTwo.Misc.BasePageOrienEx" Title="Base Page">
+  <ContentPage.Content>
+    <Label x:Name="lblOrientation" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+  </ContentPage.Content>
+</d:BaseContentPage>

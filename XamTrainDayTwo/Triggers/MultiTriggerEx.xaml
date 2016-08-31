@@ -11,7 +11,7 @@
         </ResourceDictionary>
     </TabbedPage.Resources>
   <ContentPage Title="Multi Or">
-    <StackLayout>
+    <StackLayout Spacing="20" Padding="20"  VerticalOptions="CenterAndExpand">
       <Label FontSize="Large" Text="MultiTrigger Example" />
 
       <Label Text="You must provide either an email or phone number (or both):" />
@@ -41,7 +41,7 @@
     </StackLayout>
   </ContentPage>
   <ContentPage Title="Multi And">
-    <StackLayout>
+    <StackLayout Spacing="15" Padding="20" VerticalOptions="CenterAndExpand">
       <Label FontSize="Large" Text="Multi 'Login' Example" />
 
       <Label Text="You must provide BOTH username and password:" />

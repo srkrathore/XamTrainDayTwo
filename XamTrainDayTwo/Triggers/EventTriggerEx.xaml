@@ -4,12 +4,9 @@
              xmlns:local="clr-namespace:XamTrainDayTwo.Triggers;assembly=XamTrainDayTwo"
              x:Class="XamTrainDayTwo.Triggers.EventTriggerEx"
              Padding="20, 50, 20, 0">
-  <StackLayout>
-
+  <StackLayout VerticalOptions="StartAndExpand">
     <Label FontSize="Large" Text="EventTrigger Example" />
-
     <Label Text="Text must be a valid double or it will turn red." />
-
     <Entry Placeholder="Enter a System.Double">
       <Entry.Triggers>
         <EventTrigger Event="TextChanged">

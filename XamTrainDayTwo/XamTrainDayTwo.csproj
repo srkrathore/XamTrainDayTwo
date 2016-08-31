@@ -52,6 +52,18 @@
     <Compile Include="Layouts\FramesEx.xaml.cs">
       <DependentUpon>FramesEx.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Misc\BasePageOrienEx.xaml.cs">
+      <DependentUpon>BasePageOrienEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\MiscHome.xaml.cs">
+      <DependentUpon>MiscHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\OrienEventEx.xaml.cs">
+      <DependentUpon>OrienEventEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Misc\OrientationEx.xaml.cs">
+      <DependentUpon>OrientationEx.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pages\ContentPageEx.xaml.cs">
       <DependentUpon>ContentPageEx.xaml</DependentUpon>
@@ -106,6 +118,12 @@
     </Compile>
     <Compile Include="Styles\StylesHome.xaml.cs">
       <DependentUpon>StylesHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\ConTemplateEx.xaml.cs">
+      <DependentUpon>ConTemplateEx.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\TemplatesHome.xaml.cs">
+      <DependentUpon>TemplatesHome.xaml</DependentUpon>
     </Compile>
     <Compile Include="Triggers\ConverterNActions.cs" />
     <Compile Include="Triggers\DataTriggerEx.xaml.cs">
@@ -433,6 +451,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Templates\ConTemplateEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Templates\TemplatesHome.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Misc\MiscHome.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Misc\OrientationEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Misc\OrienEventEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Misc\BasePageOrienEx.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="..\packages\Xamarin.Forms.2.3.1.114\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.1.114\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

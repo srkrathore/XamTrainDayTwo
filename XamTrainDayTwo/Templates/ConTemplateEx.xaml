@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamTrainDayTwo.ConTemplateEx">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <Style TargetType="Button">
+        <Setter Property="BorderRadius" Value="20" />
+        <Setter Property="BorderWidth" Value="5" />
+        <Setter Property="WidthRequest" Value="150" />
+        <Setter Property="HeightRequest" Value="60" />
+        <Setter Property="HorizontalOptions"  Value="Center" />
+        <Setter Property="VerticalOptions"    Value="Center" />
+        <Setter Property="FontSize" Value="Medium" />
+        <Setter Property="TextColor" Value="Red" />
+      </Style>
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <ContentView x:Name="contentView" Padding="0,20,0,0" ControlTemplate="{StaticResource TealTemplate}">
+    <StackLayout VerticalOptions="CenterAndExpand">
+      <Label Text="Welcome to the app!" HorizontalOptions="Center" />
+      <Button Text="Change Theme" Clicked="OnButtonClicked" />
+    </StackLayout>
+  </ContentView>
+</ContentPage>

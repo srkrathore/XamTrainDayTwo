@@ -17,10 +17,9 @@
         </ResourceDictionary>
 	</ContentPage.Resources>
 
-  <StackLayout Spacing="20">
+  <StackLayout Spacing="20" VerticalOptions="StartAndExpand">
 
     	<Label Text="Property Trigger" FontSize="Large" />
-
     	<Label Text="BackgroundColor property change triggered by IsFocused" FontSize="Small" />
 
         <Entry Placeholder="enter name">

@@ -4,36 +4,35 @@
 	x:Class="XamTrainDayTwo.App">
 	<Application.Resources>
 	<ResourceDictionary>
-	        <Style TargetType="Label">
+      <Style TargetType="Label">
                 <Setter Property="HorizontalOptions"  Value="Center" />
                 <Setter Property="VerticalOptions"    Value="CenterAndExpand" />
                 <Setter Property="FontSize" Value="Medium" />
                 <Setter Property="TextColor" Value="Blue" />
             </Style>
-            <Style TargetType="Button">
+      <Style TargetType="Button">
             	<Setter Property="BorderRadius" Value="10" />
             	<Setter Property="BorderWidth" Value="2" />
-            	<Setter Property="WidthRequest" Value="150" />
-            	<Setter Property="HeightRequest" Value="150" />
+            	<Setter Property="WidthRequest" Value="100" />
+            	<Setter Property="HeightRequest" Value="70" />
                 <Setter Property="HorizontalOptions"  Value="Center" />
                 <Setter Property="VerticalOptions"    Value="Center" />
                 <Setter Property="FontSize" Value="Medium" />
                 <Setter Property="TextColor" Value="Red" />
             </Style>
-
-            <Style x:Key="TitleStyle" TargetType="Label">
+      <Style x:Key="TitleStyle" TargetType="Label">
                 <Setter Property="HorizontalOptions"  Value="Center" />
                 <Setter Property="VerticalOptions"    Value="CenterAndExpand" />
                 <Setter Property="FontSize" Value="Large" />
                 <Setter Property="TextColor" Value="Red" />
             </Style>
-            <Style x:Key="SubTitleStyle" TargetType="Label">
+      <Style x:Key="SubTitleStyle" TargetType="Label">
                 <Setter Property="HorizontalOptions"  Value="Center" />
                 <Setter Property="VerticalOptions"    Value="CenterAndExpand" />
                 <Setter Property="FontSize" Value="Small" />
                 <Setter Property="TextColor" Value="Green" />
             </Style>
-            <Style x:Key="RegButtonStyle" TargetType="Button">
+      <Style x:Key="RegButtonStyle" TargetType="Button">
             	<Setter Property="BorderRadius" Value="10" />
             	<Setter Property="BorderWidth" Value="2" />
             	<Setter Property="WidthRequest" Value="150" />
@@ -53,6 +52,43 @@
           </Trigger>
         </Style.Triggers>
       </Style>
-	</ResourceDictionary>
+
+    <ControlTemplate x:Key="TealTemplate">
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="0.1*" />
+          <RowDefinition Height="0.8*" />
+          <RowDefinition Height="0.1*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="0.05*" />
+          <ColumnDefinition Width="0.95*" />
+        </Grid.ColumnDefinitions>
+        <BoxView Grid.ColumnSpan="2" Color="Teal" />
+        <Label Grid.Column="1" Text="Control Template Demo App" TextColor="White" VerticalOptions="Center" />
+        <ContentPresenter Grid.Row="1" Grid.ColumnSpan="2" />
+        <BoxView Grid.Row="2" Grid.ColumnSpan="2" Color="Teal" />
+        <Label Grid.Row="2" Grid.Column="1" Text="(c) Xamarin 2016" TextColor="White" VerticalOptions="Center" />
+      </Grid>
+    </ControlTemplate>
+    <ControlTemplate x:Key="AquaTemplate">
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="0.1*" />
+          <RowDefinition Height="0.8*" />
+          <RowDefinition Height="0.1*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="0.05*" />
+          <ColumnDefinition Width="0.95*" />
+        </Grid.ColumnDefinitions>
+        <BoxView Grid.ColumnSpan="2" Color="Aqua" />
+        <Label Grid.Column="1" Text="Control Template Demo App" TextColor="Blue" VerticalOptions="Center" />
+        <ContentPresenter Grid.Row="1" Grid.ColumnSpan="2" />
+        <BoxView Grid.Row="2" Grid.ColumnSpan="2" Color="Aqua" />
+        <Label Grid.Row="2" Grid.Column="1" Text="(c) Xamarin 2016" TextColor="Blue" VerticalOptions="Center" />
+      </Grid>
+    </ControlTemplate>    
+  </ResourceDictionary>
 </Application.Resources>
 </Application>
