@@ -9,7 +9,7 @@
                 <Setter Property="VerticalOptions"    Value="CenterAndExpand" />
                 <Setter Property="FontSize" Value="Medium" />
                 <Setter Property="TextColor" Value="Blue" />
-            </Style>
+      </Style>
       <Style TargetType="Button">
             	<Setter Property="BorderRadius" Value="10" />
             	<Setter Property="BorderWidth" Value="2" />
@@ -75,7 +75,8 @@
       <Grid>
         <Grid.RowDefinitions>
           <RowDefinition Height="0.1*" />
-          <RowDefinition Height="0.8*" />
+          <RowDefinition Height="0.1*" />
+          <RowDefinition Height="0.7*" />
           <RowDefinition Height="0.1*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>

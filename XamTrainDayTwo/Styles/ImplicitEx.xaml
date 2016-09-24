@@ -17,7 +17,7 @@
 	<ContentPage.Content>
 	<StackLayout>
 		<Label Text="An implicit style is one that's used by all controls of the same TargetType, without requiring each control to reference the style"  />
-		<Label Text="See The XAML Code of this Page for example" TextColor="Red" />
+		<Label Style="{StaticResource SubTitleStyle}" Text="See The XAML Code of this Page for example" TextColor="Red" />
 	</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

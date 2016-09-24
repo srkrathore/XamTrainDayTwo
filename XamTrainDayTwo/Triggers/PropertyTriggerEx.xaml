@@ -33,7 +33,7 @@
 
         <Label Text="uncomment the Trigger in the Style to affect these inputs" FontSize="Small" FontAttributes="Italic" />
 
-        <Entry Placeholder="enter address" />
+        <Entry Style="{StaticResource EntryTrigger}" Placeholder="enter address" />
 
         <Entry Placeholder="enter city and state" />
 

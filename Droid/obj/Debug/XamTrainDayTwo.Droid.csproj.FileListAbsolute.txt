@@ -17,6 +17,7 @@ C:\GithubCode\XamTrainDayTwo\Droid\bin\Debug\Xamarin.Forms.Platform.dll
 C:\GithubCode\XamTrainDayTwo\Droid\bin\Debug\Xamarin.Forms.Xaml.dll
 C:\GithubCode\XamTrainDayTwo\Droid\bin\Debug\XamTrainDayTwo.dll
 C:\GithubCode\XamTrainDayTwo\Droid\bin\Debug\XamTrainDayTwo.pdb
+C:\GithubCode\XamTrainDayTwo\Droid\bin\Debug\XamTrainDayTwo.dll.mdb
 C:\GithubCode\XamTrainDayTwo\Droid\bin\Debug\FormsViewGroup.pdb
 C:\GithubCode\XamTrainDayTwo\Droid\bin\Debug\FormsViewGroup.dll.mdb
 C:\GithubCode\XamTrainDayTwo\Droid\bin\Debug\Xamarin.Forms.Core.pdb
@@ -43,7 +44,6 @@ C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\res\drawable-xxhdpi\waterfront.jpg
 C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\R.cs.flag
 C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\uploadflags.txt
 C:\GithubCode\XamTrainDayTwo\Droid\bin\Debug\XamTrainDayTwo.Droid.dll.mdb
-C:\GithubCode\XamTrainDayTwo\Droid\bin\Debug\XamTrainDayTwo.dll.mdb
 C:\GithubCode\XamTrainDayTwo\Droid\bin\Debug\Java.Interop.dll.mdb
 C:\GithubCode\XamTrainDayTwo\Droid\bin\Debug\Mono.Android.dll.mdb
 C:\GithubCode\XamTrainDayTwo\Droid\bin\Debug\mscorlib.dll.mdb
