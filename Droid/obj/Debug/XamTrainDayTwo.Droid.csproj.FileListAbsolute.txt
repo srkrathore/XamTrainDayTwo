@@ -71,4 +71,3 @@ C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.d
 C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\android\assets\XamTrainDayTwo.dll.mdb
 C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\android\assets\XamTrainDayTwo.Droid.dll.mdb
 C:\GithubCode\XamTrainDayTwo\Droid\obj\Debug\XamTrainDayTwo.Droid.dll.mdb
-C:\GithubCode\XamTrainDayTwo\Droid\bin\Debug\XamTrainDayTwo.Droid.dll.mdb
