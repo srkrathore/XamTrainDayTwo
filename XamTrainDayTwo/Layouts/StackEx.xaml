@@ -4,12 +4,19 @@
 	x:Class="XamTrainDayTwo.StackEx">
 	<ContentPage.Content>
 		<StackLayout VerticalOptions = "Center">
-			<Label HorizontalTextAlignment = "Center" Text = "Label One" />
-			<Label HorizontalTextAlignment = "Center" Text = "Label Two" />
-		<StackLayout VerticalOptions = "Center" Orientation="Horizontal" >
-			<Label HorizontalTextAlignment = "Center" Text = "Label" />
-			<Entry HorizontalTextAlignment = "Center" Placeholder="Entry" />
-		</StackLayout>	
+			<Label HorizontalTextAlignment = "Center" Text = "Kitchen Management" />
+		<StackLayout VerticalOptions = "Center" HorizontalOptions="Center" Orientation="Horizontal" >
+			<Label HorizontalTextAlignment = "Center" Text = "User Name" />
+			<Entry x:Name="UserName" HorizontalTextAlignment = "Center" Placeholder="User Name" />
+		</StackLayout>
+    <StackLayout VerticalOptions = "Center" HorizontalOptions="Center" Orientation="Horizontal" >
+			<Label HorizontalTextAlignment = "Center" Text = "Password" />
+			<Entry HorizontalTextAlignment = "Center" IsPassword="True" Placeholder="Password" />
+		</StackLayout>
+   <StackLayout VerticalOptions = "Center" HorizontalOptions="Center" Orientation="Horizontal" >
+      <Button Text="Login" />
+      <Button Text="Cancel" />
+		</StackLayout>
 		</StackLayout>		
 	</ContentPage.Content>
 </ContentPage>

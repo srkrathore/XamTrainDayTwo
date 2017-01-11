@@ -10,8 +10,8 @@ namespace XamTrainDayTwo
 		bool originalStyle = true;
 		public DynamicEx ()
 		{
-			InitializeComponent ();
-			Resources ["MyDynamicStyle"] = Resources ["RedStyle"];
+			InitializeComponent ();         
+            Resources ["MyDynamicStyle"] = Resources ["RedStyle"];
 		}
 
 		public void OnClickMeClicked (object sender, EventArgs args){
