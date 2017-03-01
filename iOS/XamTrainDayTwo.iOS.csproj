@@ -27,12 +27,8 @@
     <MtouchUseSGen>True</MtouchUseSGen>
     <MtouchFastDev>True</MtouchFastDev>
     <MtouchDebug>True</MtouchDebug>
-    <CodesignKey>iPhone Developer: S Ravi Kumar (8QKUY63E2Z)</CodesignKey>
+    <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchProfiling>False</MtouchProfiling>
-    <CodesignProvision>0f835592-4493-4a56-8ce5-52e4876ddb36</CodesignProvision>
-    <CodesignEntitlements />
-    <CodesignResourceRules />
-    <CodesignExtraArgs />
     <MtouchSdkVersion>9.3</MtouchSdkVersion>
     <MtouchUseLlvm>False</MtouchUseLlvm>
     <MtouchUseThumb>False</MtouchUseThumb>

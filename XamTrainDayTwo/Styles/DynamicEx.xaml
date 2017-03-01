@@ -10,8 +10,9 @@
         <Setter Property="FontSize" Value="Small" />
         <Setter Property="TextColor" Value="Green" />
     </Style>
-    <Style x:Key="RedStyle" TargetType="Label"  BasedOn="{StaticResource PageExplicitStyle}" >
-        <Setter Property="TextColor" Value="Red" />
+    <Style x:Key="RedStyle" TargetType="Label"   >
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="TextColor" Value="Red" />
     </Style>
     <Style x:Key="MyDynamicStyle" TargetType="Label"> </Style>
     </ResourceDictionary>

@@ -47,7 +47,13 @@ namespace XamTrainDayTwo
 			Navigation.PushAsync(new AbsSimple());
 
 		}
+        public void OnFrameClicked(object sender, EventArgs args)
+        {
 
-	}
+            Navigation.PushAsync(new FramesEx());
+
+        }
+
+    }
 }
 

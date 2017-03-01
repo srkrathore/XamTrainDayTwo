@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace XamTrainDayTwo.Layouts {
+namespace XamTrainDayTwo {
     using System;
     using Xamarin.Forms;
     using Xamarin.Forms.Xaml;

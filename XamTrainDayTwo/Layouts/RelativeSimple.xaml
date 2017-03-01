@@ -5,30 +5,9 @@
 	Title="RelativeLayout Simple Example">
 	<ContentPage.Content>
   <RelativeLayout>
-    <!-- Upper left -->
-    <BoxView Color="Red"
-             RelativeLayout.XConstraint=
-                 "{ConstraintExpression Type=Constant, 
-                                        Constant=0}"
-             RelativeLayout.YConstraint=
-                 "{ConstraintExpression Type=Constant, 
-                                        Constant=25}" />
-
-    <!-- Upper right -->
-    <BoxView Color="Green" 
-             RelativeLayout.XConstraint=
-                 "{ConstraintExpression Type=RelativeToParent, 
-                                        Property=Width,
-                                        Factor=1,
-                                        Constant=-40}"
-             RelativeLayout.YConstraint=
-                 "{ConstraintExpression Type=Constant, 
-                                        Constant=25}"
-   />
-
-    <!-- Centered and 1/3 width and height of parent -->
-    <BoxView x:Name="oneThird"
-             Color="Red"
+            <!-- Centered and 1/3 width and height of parent -->
+            <BoxView x:Name="oneThird"
+             Color="Aqua"
              RelativeLayout.XConstraint=
                  "{ConstraintExpression Type=RelativeToParent,
                                         Property=Width,
@@ -45,19 +24,18 @@
                  "{ConstraintExpression Type=RelativeToParent,
                                         Property=Height,
                                         Factor=0.33}"  />
-
-    <!-- 1/3 width and height of previous -->
-    <BoxView Color="Blue"
+            <!-- 1/3 width and height of previous -->
+            <BoxView Color="Red"
              RelativeLayout.XConstraint=
                  "{ConstraintExpression Type=RelativeToView,
                                         ElementName=oneThird,
-                                        Property=X,
                                         Factor=1,
-                                        Constant=30}"
+                                        Property=X}"
              RelativeLayout.YConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,                                  
-                                        Property=Height,
-                                        Factor=.5
+                 "{ConstraintExpression Type=RelativeToView,
+                                        ElementName=oneThird,                                  
+                                        Property=Y,
+                                        Factor=1
                                         }"
              RelativeLayout.WidthConstraint=
                  "{ConstraintExpression Type=RelativeToView,
@@ -69,9 +47,20 @@
                                         ElementName=oneThird,
                                         Property=Height,
                                         Factor=0.33}"  />
-    
-  
-    
-  </RelativeLayout>
+            <BoxView Color="Gray"              
+                     RelativeLayout.XConstraint=
+                 "{ConstraintExpression Type=RelativeToView,
+                                        ElementName=oneThird,
+                                        Factor=1,
+                                        Property=Width}"
+                  RelativeLayout.YConstraint=
+                 "{ConstraintExpression Type=RelativeToView,
+                                        ElementName=oneThird,                                  
+                                        Property=Y,
+                                        Factor=1
+                                        }"   
+                     />
+
+        </RelativeLayout>
 	</ContentPage.Content>
 </ContentPage>

@@ -17,8 +17,16 @@ namespace XamTrainDayTwo {
     public partial class AppHeader : global::Xamarin.Forms.ContentView {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label lblHeader;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label lblSubHeader;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(AppHeader));
+            lblHeader = this.FindByName<global::Xamarin.Forms.Label>("lblHeader");
+            lblSubHeader = this.FindByName<global::Xamarin.Forms.Label>("lblSubHeader");
         }
     }
 }

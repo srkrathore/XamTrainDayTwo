@@ -8,7 +8,6 @@ C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\bin\Debug\Xamarin.Forms.Core.xml
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.csprojResolveAssemblyReference.cache
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Pages.ContentPageEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Pages.MasterDetailEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Pages.MasterPage.xaml.g.cs
@@ -66,7 +65,9 @@ C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Misc.MiscHo
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Misc.OrientationEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Misc.OrienEventEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Misc.BasePageOrienEx.xaml.g.cs
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.Views.ListViewEx.xaml.g.cs
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.dll
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.pdb
+C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.csprojResolveAssemblyReference.cache
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\obj\Debug\XamTrainDayTwo.dll.mdb
 C:\GithubCode\XamTrainDayTwo\XamTrainDayTwo\bin\Debug\XamTrainDayTwo.dll.mdb

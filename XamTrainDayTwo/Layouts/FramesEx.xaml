@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XamTrainDayTwo.Layouts.FramesEx">
+             x:Class="XamTrainDayTwo.FramesEx"
+             BackgroundColor="Aqua">
   <StackLayout VerticalOptions="Center" Padding="15">
-    <Frame BackgroundColor="White"
+    <Frame BackgroundColor="Red"
      OutlineColor="White"
      HasShadow="True"
-     Padding="15">
+     Padding="15"> 
       <Frame BackgroundColor="#F0F0F0"
 				   OutlineColor="Black"
 				   HasShadow="False"

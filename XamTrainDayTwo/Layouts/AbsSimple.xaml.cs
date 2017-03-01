@@ -7,7 +7,7 @@ namespace XamTrainDayTwo
 		public AbsSimple ()
 		{
 			InitializeComponent (); 
-
+            
 		}
 	}
 }
