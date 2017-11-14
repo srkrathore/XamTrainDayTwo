@@ -9,16 +9,14 @@
 //------------------------------------------------------------------------------
 
 namespace XamTrainDayTwo.Behaviors {
-    using System;
-    using Xamarin.Forms;
-    using Xamarin.Forms.Xaml;
     
     
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\CloudCode\\XamTrainDayTwo\\XamTrainDayTwo\\Behaviors\\BehaviorsEx.xaml")]
     public partial class BehaviorsEx : global::Xamarin.Forms.ContentPage {
         
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(BehaviorsEx));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(BehaviorsEx));
         }
     }
 }

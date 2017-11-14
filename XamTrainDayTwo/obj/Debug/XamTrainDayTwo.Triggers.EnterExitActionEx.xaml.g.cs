@@ -9,16 +9,14 @@
 //------------------------------------------------------------------------------
 
 namespace XamTrainDayTwo.Triggers {
-    using System;
-    using Xamarin.Forms;
-    using Xamarin.Forms.Xaml;
     
     
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\CloudCode\\XamTrainDayTwo\\XamTrainDayTwo\\Triggers\\EnterExitActionEx.xaml")]
     public partial class EnterExitActionEx : global::Xamarin.Forms.ContentPage {
         
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(EnterExitActionEx));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(EnterExitActionEx));
         }
     }
 }

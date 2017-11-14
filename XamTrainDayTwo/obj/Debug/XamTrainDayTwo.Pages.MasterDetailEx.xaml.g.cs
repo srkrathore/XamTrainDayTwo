@@ -9,20 +9,18 @@
 //------------------------------------------------------------------------------
 
 namespace XamTrainDayTwo {
-    using System;
-    using Xamarin.Forms;
-    using Xamarin.Forms.Xaml;
     
     
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\CloudCode\\XamTrainDayTwo\\XamTrainDayTwo\\Pages\\MasterDetailEx.xaml")]
     public partial class MasterDetailEx : global::Xamarin.Forms.MasterDetailPage {
         
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::XamTrainDayTwo.MasterPage masterPage;
         
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(MasterDetailEx));
-            masterPage = this.FindByName<global::XamTrainDayTwo.MasterPage>("masterPage");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MasterDetailEx));
+            masterPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XamTrainDayTwo.MasterPage>(this, "masterPage");
         }
     }
 }

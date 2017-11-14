@@ -9,16 +9,14 @@
 //------------------------------------------------------------------------------
 
 namespace XamTrainDayTwo.Views {
-    using System;
-    using Xamarin.Forms;
-    using Xamarin.Forms.Xaml;
     
     
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\CloudCode\\XamTrainDayTwo\\XamTrainDayTwo\\Views\\ListsHome.xaml")]
     public partial class ListsHome : global::Xamarin.Forms.TabbedPage {
         
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(ListsHome));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ListsHome));
         }
     }
 }

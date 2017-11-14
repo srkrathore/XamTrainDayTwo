@@ -3,12 +3,12 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 	x:Class="XamTrainDayTwo.AbsSimple">
 	<ContentPage.Content>
-  <AbsoluteLayout >
-    <BoxView Color="#8080FF"
-             AbsoluteLayout.LayoutBounds=".5,.5,100,60"
-             AbsoluteLayout.LayoutFlags="XProportional,YProportional," />
-    <BoxView Color="Gray"
-             AbsoluteLayout.LayoutBounds="100,150,40,60"
+  <AbsoluteLayout BackgroundColor="GreenYellow" >
+            <BoxView Color="#8080FF"
+             AbsoluteLayout.LayoutBounds="12,12,25,15"
+             AbsoluteLayout.LayoutFlags="None"/>
+            <BoxView Color="Gray"
+             AbsoluteLayout.LayoutBounds="115,20,40,60"
              AbsoluteLayout.LayoutFlags="None" />
     
   </AbsoluteLayout>

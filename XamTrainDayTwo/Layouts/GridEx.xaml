@@ -5,9 +5,9 @@
   <Grid>
     <Grid.RowDefinitions>
       <RowDefinition Height="*" />
-      <RowDefinition Height=".30*" />
-      <RowDefinition Height=".30*" />
-      <RowDefinition Height=".30*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
     </Grid.RowDefinitions>
     <Grid.ColumnDefinitions>
       <ColumnDefinition Width="10" />

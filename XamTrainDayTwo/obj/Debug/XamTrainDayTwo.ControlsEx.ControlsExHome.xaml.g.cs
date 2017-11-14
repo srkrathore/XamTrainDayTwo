@@ -9,24 +9,22 @@
 //------------------------------------------------------------------------------
 
 namespace XamTrainDayTwo {
-    using System;
-    using Xamarin.Forms;
-    using Xamarin.Forms.Xaml;
     
     
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\CloudCode\\XamTrainDayTwo\\XamTrainDayTwo\\ControlsEx\\ControlsExHome.xaml")]
     public partial class ControlsExHome : global::Xamarin.Forms.ContentPage {
         
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::XamTrainDayTwo.BindablePicker ddlExample;
         
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label lblSelectedVal;
         
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(ControlsExHome));
-            ddlExample = this.FindByName<global::XamTrainDayTwo.BindablePicker>("ddlExample");
-            lblSelectedVal = this.FindByName<global::Xamarin.Forms.Label>("lblSelectedVal");
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ControlsExHome));
+            ddlExample = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XamTrainDayTwo.BindablePicker>(this, "ddlExample");
+            lblSelectedVal = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblSelectedVal");
         }
     }
 }

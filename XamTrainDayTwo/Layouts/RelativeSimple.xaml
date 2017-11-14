@@ -4,7 +4,7 @@
 	x:Class="XamTrainDayTwo.RelativeSimple"
 	Title="RelativeLayout Simple Example">
 	<ContentPage.Content>
-  <RelativeLayout>
+  <RelativeLayout BackgroundColor="Red">
             <!-- Centered and 1/3 width and height of parent -->
             <BoxView x:Name="oneThird"
              Color="Aqua"
@@ -24,13 +24,21 @@
                  "{ConstraintExpression Type=RelativeToParent,
                                         Property=Height,
                                         Factor=0.33}"  />
+            
+                <Label x:Name="lblHeading" Text="App Heading" 
+                   TextColor="White" FontSize="45"
+                   RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,
+                                        Property=Width,
+                                        Factor=0.24}"/>
+         
+           
             <!-- 1/3 width and height of previous -->
-            <BoxView Color="Red"
+            <BoxView Color="Green"
              RelativeLayout.XConstraint=
-                 "{ConstraintExpression Type=RelativeToView,
-                                        ElementName=oneThird,
+                 "{ConstraintExpression Type=RelativeToParent,
                                         Factor=1,
-                                        Property=X}"
+                                        Property=Width,
+                                        Constant=-125}"
              RelativeLayout.YConstraint=
                  "{ConstraintExpression Type=RelativeToView,
                                         ElementName=oneThird,                                  
@@ -47,6 +55,7 @@
                                         ElementName=oneThird,
                                         Property=Height,
                                         Factor=0.33}"  />
+
             <BoxView Color="Gray"              
                      RelativeLayout.XConstraint=
                  "{ConstraintExpression Type=RelativeToView,
