@@ -11,7 +11,8 @@
              RelativeLayout.XConstraint=
                  "{ConstraintExpression Type=RelativeToParent,
                                         Property=Width,
-                                        Factor=0.33}"
+                                        Factor=0.33,
+                                        Constant=-5}"
              RelativeLayout.YConstraint=
                  "{ConstraintExpression Type=RelativeToParent,
                                         Property=Height,

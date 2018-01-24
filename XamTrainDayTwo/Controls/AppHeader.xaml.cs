@@ -10,7 +10,7 @@ namespace XamTrainDayTwo
 			InitializeComponent ();
 		}
 
-        public Label HeaderLabel { get { return lblHeader; } set { lblHeader = value; } }
+        public string HeaderText { get { return lblHeader.Text; } set { lblHeader.Text = value; } }
         public string SubHeaderText { get { return lblSubHeader.Text; } set { lblSubHeader.Text = value; } }
     }
 }

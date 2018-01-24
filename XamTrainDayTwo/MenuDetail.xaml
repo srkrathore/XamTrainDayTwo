@@ -2,8 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     xmlns:z="clr-namespace:XamTrainDayTwo;assembly=XamTrainDayTwo"        
-	x:Class="XamTrainDayTwo.MenuDetail">
+	x:Class="XamTrainDayTwo.MenuDetail" BackgroundColor="White">
 	<ContentPage.Content>
-        <z:AppHeader />
+        <StackLayout>
+            <z:AppHeader HeaderText="The Training" SubHeaderText="14-Nov-2017" />
+            <z:ImageEntry TextColor="Black" 
+                        PlaceholderColor="Black" 
+                        Image="icon"
+                        LineColor="Black" 
+                        Placeholder="Anything" 
+                        HorizontalOptions="FillAndExpand" />
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

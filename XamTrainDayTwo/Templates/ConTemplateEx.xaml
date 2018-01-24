@@ -19,7 +19,8 @@
   <ContentView x:Name="contentView" Padding="0,20,0,0" ControlTemplate="{StaticResource TealTemplate}">
     <StackLayout VerticalOptions="CenterAndExpand">
       <Label Text="Welcome to the app!" HorizontalOptions="Center" />
-      <Button Text="Change Theme" Clicked="OnButtonClicked" />
+        <Label Text="Second Welcome to the app!" HorizontalOptions="Center" />
+        <Button Text="Change Theme" Clicked="OnButtonClicked" />
     </StackLayout>
   </ContentView>
 </ContentPage>

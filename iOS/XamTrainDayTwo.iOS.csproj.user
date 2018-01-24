@@ -2,7 +2,15 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectView>ProjectFiles</ProjectView>
-    <SelectedDevice>iPhone 8 iOS 11.1</SelectedDevice>
-    <DefaultDevice>iPhone 8 iOS 11.1</DefaultDevice>
+    <SelectedDevice>iPhone 6s iOS 11.2</SelectedDevice>
+    <DefaultDevice>iPhone 6s iOS 11.2</DefaultDevice>
+    <PublishUrlHistory />
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
   </PropertyGroup>
 </Project>
