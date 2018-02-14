@@ -1,26 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-
 using Xamarin.Forms;
 
 namespace XamTrainDayTwo
 {
-	public partial class DynamicEx : ContentPage
+    public partial class DynamicEx : ContentPage
 	{
 		bool originalStyle = true;
 		public DynamicEx ()
 		{
 			InitializeComponent ();         
-            Resources ["MyDynamicStyle"] = Resources ["RedStyle"];
+            Resources ["MyStyle"] = Resources ["RedStyle"];
 		}
 
 		public void OnClickMeClicked (object sender, EventArgs args){
 
 			if (originalStyle) {
-				Resources ["MyDynamicStyle"] = Resources ["PageExplicitStyle"];
+				Resources ["MyStyle"] = Resources ["PageExplicitStyle"];
 				originalStyle = false;
 			} else {
-				Resources ["MyDynamicStyle"] = Resources ["RedStyle"];
+				Resources ["MyStyle"] = Resources ["RedStyle"];
 				originalStyle = true;
 			}
 

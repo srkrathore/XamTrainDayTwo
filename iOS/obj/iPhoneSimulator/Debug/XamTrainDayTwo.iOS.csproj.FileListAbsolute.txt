@@ -73,3 +73,4 @@ C:\CloudCode\XamTrainDayTwo\iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.
 C:\CloudCode\XamTrainDayTwo\iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
 C:\CloudCode\XamTrainDayTwo\iOS\obj\iPhoneSimulator\Debug\XamTrainDayTwoiOS.exe
 C:\CloudCode\XamTrainDayTwo\iOS\obj\iPhoneSimulator\Debug\XamTrainDayTwoiOS.pdb
+C:\CloudCode\XamTrainDayTwo\iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll.mdb

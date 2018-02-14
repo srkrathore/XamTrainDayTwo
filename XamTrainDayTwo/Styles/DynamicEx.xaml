@@ -4,6 +4,7 @@
 	x:Class="XamTrainDayTwo.DynamicEx">
      <ContentPage.Resources>
    <ResourceDictionary>
+    
     <Style x:Key="PageExplicitStyle" TargetType="Label">
         <Setter Property="HorizontalOptions"  Value="Center" />
         <Setter Property="VerticalOptions"    Value="CenterAndExpand" />
@@ -14,12 +15,12 @@
                 <Setter Property="FontSize" Value="Medium" />
                 <Setter Property="TextColor" Value="Red" />
     </Style>
-    <Style x:Key="MyDynamicStyle" TargetType="Label"> </Style>
+    <Style x:Key="MyStyle" TargetType="Label"> </Style>
     </ResourceDictionary>
     </ContentPage.Resources>
 	<ContentPage.Content>
 	<StackLayout>
-		<Label Style="{DynamicResource MyDynamicStyle}" Text="Dynamic Styles are used to change the Style of a boject at runtime Click on 'Click Me' Buton to see the Change'"  />
+		<Label Style="{DynamicResource MyStyle}" Text="Dynamic Styles are used to change the Style of a boject at runtime Click on 'Click Me' Buton to see the Change'"  />
 		<Label Style="{StaticResource PageExplicitStyle}" Text="See The XAML Code of this Page for example"  />
 		<Button Text="Click Me"  Clicked="OnClickMeClicked" />
 	</StackLayout>

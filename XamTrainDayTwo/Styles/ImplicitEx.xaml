@@ -3,21 +3,5 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 	x:Class="XamTrainDayTwo.ImplicitEx"
 	Title="Implicit Styles">
-    <ContentPage.Resources>
-     <ResourceDictionary>
-	    <Style TargetType="Label">
-        <Setter Property="HorizontalOptions"  Value="Center" />
-        <Setter Property="VerticalOptions"    Value="CenterAndExpand" />
-        <Setter Property="FontSize" Value="Small" />
-        <Setter Property="TextColor" Value="Blue" />
-       </Style>
-      </ResourceDictionary>
-    </ContentPage.Resources>
-
-	<ContentPage.Content>
-	<StackLayout>
-		<Label Text="An implicit style is one that's used by all controls of the same TargetType, without requiring each control to reference the style"  />
-		<Label Style="{StaticResource SubTitleStyle}" Text="See The XAML Code of this Page for example" TextColor="Red" />
-	</StackLayout>
-	</ContentPage.Content>
+ 
 </ContentPage>
